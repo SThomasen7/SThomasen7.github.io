@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Github Pages Website For Scott Andersen -->
+<!-- Github Pages Website For Scott Thomas Andersen -->
 <html lang="en">
 <head>
 	<title> Home - Scott Thomas Andersen </title>
@@ -10,81 +10,69 @@
 		    Binary Summarization, Assembly Analysis, Computing for Social Good,
 		    Scott Thomas Andersen">
 	<meta name="author" content="Scott Thomas Andersen">
-	<meta name="viewport" content="width=device-widt,
+	<meta name="viewport" content="width=device-width,
 		    intial-scale=1.0">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 
 </head>
 
-<body  style="background: linear-gradient(rgb(34, 50, 78) 20%, rgb(255, 255, 255)) fixed;
-              display:flex; justify-content:center; 
-              font-family:'Helvetica', 'Arial', 'Times New Roman';
-	      flex-direction:column;
-	      align-items: center">
-
-
-<div style="width:95%; background-color: rgb(220, 220, 220);
-	    border-radius: 5px; padding: 5px;
-	    display:flex; flex-direction:row;
-	    justify-content: space-between;
-	    align-items: flex-start; margin-bottom:20px;
-	    ">
-
-
-	<div>
+<body>
+<div class="banner">
+	<div style="width: 90%; diplay:flex; flex-direction:column; justify-content: space-between">
+		<div style="display:flex; flex-direction:row; justify-content: space-between">
 		<h1> Scott Thomas Andersen <br> </h1>
-		<p style="font-size:16px;
-		margin-top:0px; margin-bottom:0px">
+
+		<div style="margin: 15px 20px 0px 0px">
+		<a href="https://github.com/SThomasen7" 
+			target="_blank" class="fa fa-github"></a>
+		<a href="https://www.linkedin.com/in/scott-thomas-andersen-631275173" 
+		   target="_blank" class="fa fa-linkedin"></a>
+		</div>
+		</div>
+
+		
+		<div style="display:flex; flex-direction:row; align-items: flex-end">
+		<p class="banner">
 			Mexico City, Mexico <br>
 			American Citizen <br>
 			Authorized to work in Mexico <br>
 			<a href="mailto: Stasen@umich.edu"> Stasen@umich.edu </a> <br>
 		</p>
-	</div>
-
-	<div style="margin: 15px 20px 0px 0px;
-		    width: 50%;
-		    background-color: rgb(210, 210, 210);
-		    border-radius: 8px; 
-		    padding: 10px 15px 10px 15px;
-		    display:flex; flex-direction:row; 
-		    justify-content: flex-start;
-		    align-items:flex-end;
-		    ">
-		
-		<a href="index.html" style="margin-left:8px">Home</a>
-		<a href="https://github.com/SThomasen7" style="margin-left:8px">GitHub</a>
-		<a href="contacts.html" style="margin-left:8px">Contact</a>
-		<a href="publications.html" style="margin-left:8px">Publications</a>
-		<a href="indice.html" style="margin-left:15px">Español</a>
- 
-
+		<div class="links">	
+		<div>
+		<a href="index.html" class="links">Home</a>
+		<a href="contact.html" class="links">Contact</a>
+		<a href="publications.html" class="links">Publications</a>
+		<a href="static/Resume_ScottThomasAndersen2022.pdf" class="links"
+			target="_blank">Resume</a>
+		<a href="gallery.html" class="links">Gallery</a>
+		</div>
+		<div>
+		<a href="indice.html">Español</a>
+		</div>
+		</div>
+		</div>
 	</div>
 	<img src="static/Portrait.jpg" alt="Photo" width="145" height="165">
-
 </div>
 
 
-<div style="width:95%; background-color: rgb(220, 220, 220);
-	    border-radius: 5px; padding: 5px;
-	    display:flex; flex-direction:column;
-	    justify-content: space-between;
-	    align-items: flex-start; margin-bottom:20px;
-	    "> <div style="padding: 30px 60px 30px 60px">
+<div class="content"> <div style="padding: 30px 60px 30px 60px">
 	
-        <h1> This site is under construction! <br></h1>
-	<a href="static/Resume_ScottThomasAndersen2022.pdf"
-	   target="_blank">Check out my Resume here</a>
-	<h3> About Me </h3>
+        <p style="color: red"> This site is under construction! <br></p>
+	<h2> About Me </h2>
 
-	<h4>Education: </h4>
+	<h3>Education: </h3>
 
 	<p> Currently, I'm studying my masters in computer science at the
-	<b>Universidad Nacional Autónoma de México</b> (National Autonomous University of Mexico).
+	<b lang="es">Universidad Nacional Autónoma de México</b> (National Autonomous University of Mexico, UNAM).
 	The focus area is Signals, Images, and Virtual Environments.
 
-	I am writing a thesis on the rendering of light caustics using Ray Tracing under
-	the guidance of <a href="http://turing.iimas.unam.mx/~egarduno/">Dr. Edgar Garduño</a>.
+	I am writing a thesis on the rendering of light caustics in liquids using Ray Tracing under
+	the guidance of <a href="http://turing.iimas.unam.mx/~egarduno/" target="_blank">Dr. Edgar Garduño</a>.
 	I expect to complete my degree in the spring of 2023.
 	</p>
 
@@ -93,7 +81,7 @@
 	in May of 2021 with a final GPA of 3.40/4.00. Where I majored in Computer Science and minored in Spanish. 
 
 	During this time I had the pleasure of working on a project under the guidance of 
-	<a href="https://kjl.name/">Dr. Kevin Leach</a>. Our work involved automatic
+	<a href="https://kjl.name/" target="_blank">Dr. Kevin Leach</a>. Our work involved automatic
 	summarization of binary code and the application of such a model for the comprehension of
 	unknown malicious binaries.
 
@@ -106,8 +94,110 @@
 
 	</p>
 
-	<h4>Experience: </h4>
-	<h4>Skills: </h4>
+	<h3>Experience: </h3>
+
+	<p><b> Oracle </b> <i>August 2022 - Present</i></p>
+	<p>
+	I'm excited to announce I will be starting in mid-August an internship at the <b>Oracle
+	Mexico Development Center</b> in Guadalajara, Mexico. This will be a part-time remote job
+	for the following year while I finish up my masters at UNAM. I will be working on
+	automated database testing.
+	</p>
+
+
+	<p><b>UNAM - Language Engineering Lab</b> <i>June 2022 - Present</i></p>
+	<p>
+	I am currently working with <a href="http://www.ii.unam.mx/es-mx/Investigacion/Academicos/Paginas/GBelE.aspx" target="_blank">Dr. Gemma Bel-Enguix</a>
+	at UNAM as a research assistant. My main responsabilities are collaborating in writing of Academic Papers, researching related work,
+	running experiments, and translating documents from Spanish to English for publication. We are operating under UNAM's 
+	<a href=http://grupos.iingen.unam.mx/iling/es-mx/Paginas/default.aspx target="_blank">
+	<b lang="es">Grupo Ingeniería Lingüística</b></a> (The Language Engineering Lab). 
+
+	<br>
+	Currently my role has been primarily researching and writing articles on datasets we have created
+	for the detection of heteronormativity in English and LGBTphobic speech in Mexican Spanish. <a href="publications.html">See publications</a>
+	</p>
+
+	<p><b>UMICH - Research Assistant</b><i> August 2019 - August 2021 </i></p>
+
+	<p>
+	I worked under Dr. Kevin Leach as a research assistant for the majority of my studies at the University of Michigan.
+	Currently, we are still collaborating on projects, but I am no longer formally employed by the University.
+	<br>
+	I developed a system for the automatic summarization of compiled C code, using NLP models to "translate" sequences of
+	assembly instructions into short English summaries. My responsabilities included performing rigorous static analysis on
+	assembly code utilizing tools such as Ghidra, Objdump, and Radare2. We trained and fine-tuned neural networks for the summarization
+	of code, using models such as BiLSTMs and generative BERT models. We even designed an IRA exempt human study to quantify
+	analyst understanding of assembly code. This was my first experience writing for academic publication, but it was very
+	enriching and helped me to refine my writing skills and learn a lot about running research experiments.
+	<br>
+	In addition, I assisted in image processing for a project an object recognition project. We used the <a href="http://www.cvlibs.net/datasets/kitti/" target="_blank">
+		KITTI Vision Benchmark Suite</a> for a data set of drive images. We simulated a car with four cameras by splitting the images into sections,
+	and predicting the objects using state-of-the-art neural networks for computer vision, <a href="https://github.com/AlexeyAB/darknet" target="_blank">YOLOv4</a>.
+	</p>
+
+	<p><b>WICIR</b> <i>August 2019 - July 2021</i></p>
+
+	During my time in Ann Arbor, I volunteered as an Emergency Phone Operator with <a href=http://wicir.org/ target="_blank">WICIR</a>, Washtenaw Interfaith Coalition for Immigration Rights.
+	I spent many two-week shifts holding a phone that Washtenaw County community members could call for advice or assistance with issues related to immigration in the State of Michigan.
+	Typically callers would seek assitance with ICE check-ins or arrests. We also would recommend commmunity resources such as shelters or pro-bono lawyers when necessary.
+	We also provided financial aid to hundreds of families during the COVID crisis. As many callers did not qualify for government relief or stimulus checks.
+
+	<br>
+	<i>If you live in Washtenaw county and would like to get involved with WICIR they are always looking for more volunteers. If you are a non-Spanish speaker you can provide
+		support to community members by giving rides or helping phone holders with tasks. If you are a Spanish speaker WICIR is ALWAYS looking for more phone holders.
+		You can find more information at: <a href=http://wicir.org/get-involved/ target="_blank">wicir.org/</a></i>
+	</p>
+
+	<p>
+
+
+	</p>
+
+	<h3>Skills: </h3>
+
+	<div style="display:flex; flex-direction:row">
+	<div class="cards">
+		<h4 style="text-align: center; margin: 8px"> Programming Languages </h4>
+		<p> 
+		<i>C++</i> - Advanced <br>
+		<i>C</i> - Advanced <br>
+		<i>Python</i> - Advanced <br>
+		<i>Bash Scripting</i> - Proficient <br>
+		<i>SQL</i> - Proficient <br>
+		<i>HTML</i> - Proficient <br>
+		<i>Javascript</i> - Proficient <br>
+		<i>x86 Assembly</i> - Basic but experienced in code comprehension tasks <br>
+		</p>
+
+	</div>
+	<div class="cards">
+		<h4 style="text-align: center; margin: 8px"> Technical Skills </h4>
+		<p> 
+
+		<i>Unix Operating Systems</i> - Proficient <br>
+		<i>Windows Operating Systems</i> - Proficient <br>
+		<i>OpenGL</i> - Proficient <br>
+		<i>VIM</i> (the best text editor) - Proficient <br>
+		<i>MatLab / Octave</i> - Proficient<br>
+		<i>Google Cloud API</i> - Proficient <br>
+		<i>GitHub</i> - Proficient<br>
+		<i>Radare2</i> - Proficient<br>
+		<i>Quartus</i> - Basic<br>
+
+		</p>
+	</div>
+	<div class="cards">
+		<h4 style="text-align: center; margin: 8px"> Spoken Languages </h4>
+		<p>
+		<i> English </i> - Native Fluency <br>
+		<i> Spanish </i> - <a href="static/certificado.pdf" target="_blank">Certified Fluent</a> as of 2020 <br>
+		<i> Italian, French, Portuguese </i> - Basic Reading <br>
+	</div>
+	</div>
+	<p><i>Each skill in each subsection is presented in order from most to least proficient</i></p>
+
+	
 
 </div></div>
 </body>

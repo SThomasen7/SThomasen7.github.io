@@ -1,0 +1,100 @@
+body {
+	background: linear-gradient(rgb(34, 50, 78) 20%, rgb(255, 255, 255)) fixed;
+	display:flex; 
+	justify-content:center; 
+	font-family:'Helvetica', 'Arial', 'Times New Roman';
+	flex-direction:column;
+	align-items: center;
+}
+
+div.banner {
+	width:95%; 
+	background-color: rgb(220, 220, 220);
+	border-radius: 5px; 
+	padding: 5px;
+	display:flex; 
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: flex-start; 
+	margin-bottom:20px;
+}
+
+p.banner {
+	font-size:16px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+div.links{
+	margin: 15px 20px 0px 0px;
+	width: 90%;
+	background-color: rgb(210, 210, 210);
+	border-radius: 8px; 
+	padding: 10px 15px 10px 15px;
+	display:flex; 
+	flex-direction:row; 
+	justify-content: space-between;
+	align-items:flex-end;
+}
+
+a.links{
+	margin-left:8px;
+}
+
+div.content{
+	width:95%; 
+	background-color: rgb(220, 220, 220);
+	border-radius: 5px; 
+	padding: 5px;
+	display:flex; 
+	flex-direction:column;
+	justify-content: space-between;
+	align-items: flex-start; 
+	margin-bottom:20px;
+}
+
+div.cards{
+	width: 33%;
+	background-color: rgb(200, 200, 200);
+	border-radius: 8px; 
+	padding: 0px 15px 10px 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	display:flex; 
+	flex-direction:column; 
+}
+
+div.cards-vert{
+	width: 100%;
+	background-color: rgb(200, 200, 200);
+	border-radius: 8px; 
+	padding: 0px 0px 0px 15px;
+	margin-top: 10px;
+	display:flex; 
+	flex-direction:row; 
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #2D333B;
+  color: #9DA7AF;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 15px;
+  width: 18px;
+  height: 18px;
+  margin: 3px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
