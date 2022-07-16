@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!-- Github Pages Website For Scott Thomas Andersen -->
+<html lang="en">
+<head>
+	<title> Gallery - Scott Thomas Andersen </title>
+	<meta charset="UTF-8">
+	<meta name="description" content"Portfolio Website for Scott Thomas Andersen">
+	<meta name="keywords" content="Scott, Thomas, Andersen,
+		    UNAM, UMICH, Computer Scientist,
+		    Scott Thomas Andersen, gallery, art, animation,
+		    rendering, ray tracing">
+	<meta name="author" content="Scott Thomas Andersen">
+	<meta name="viewport" content="width=device-width,
+		    intial-scale=1.0">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+</head>
+
+<body>
+<div class="banner">
+	<div style="width: 90%; diplay:flex; flex-direction:column; justify-content: space-between">
+		<div style="display:flex; flex-direction:row; justify-content: space-between">
+		<h1> Scott Thomas Andersen <br> </h1>
+
+		<div style="margin: 15px 20px 0px 0px">
+		<a href="https://github.com/SThomasen7" 
+			target="_blank" class="fa fa-github"></a>
+		<a href="https://www.linkedin.com/in/scott-thomas-andersen-631275173" 
+		   target="_blank" class="fa fa-linkedin"></a>
+		</div>
+		</div>
+
+		
+		<div style="display:flex; flex-direction:row; align-items: flex-end">
+		<p class="banner">
+			Mexico City, Mexico <br>
+			American Citizen <br>
+			Authorized to work in Mexico <br>
+			<a href="mailto: Stasen@umich.edu"> Stasen@umich.edu </a> <br>
+		</p>
+		<div class="links">	
+		<div>
+		<a href="index.html" class="links">Home</a>
+		<a href="contact.html" class="links">Contact</a>
+		<a href="publications.html" class="links">Publications</a>
+		<a href="static/Resume_ScottThomasAndersen2022.pdf" class="links"
+			target="_blank">Resume</a>
+		<a href="gallery.html" class="links">Gallery</a>
+		</div>
+		<div>
+		<a href="indice.html">Español</a>
+		</div>
+		</div>
+		</div>
+	</div>
+	<img src="static/Portrait.jpg" alt="Portrait Scott Thomas Andersen" width="145" height="165">
+</div>
+
+<div class="content"> <div style="padding: 30px 60px 30px 60px; width:90%">
+	<h2 style="text-align: center"> Gallery </h2>
+	<p style="text-align: left">
+	Check out some of the renderings I've been working on, not everything is on GitHub quite yet.
+	but here I'll upload some of the works I'm proud of.
+	<br> <br>
+	Many of these images come from animations, that I hope to upload to Youtube soon.
+	</p>
+
+	<div class="cards-full">
+
+	<img class="gallery_img" src="static/gallery/fountain1.png" alt="Render fountain image">
+	<img class="gallery_img" src="static/gallery/fountain2.png" alt="Render fountain image">
+	<img class="gallery_img" src="static/gallery/fountain3.png" alt="Render fountain image">
+	<p> 
+	These images are some initial test renderings from my Master's thesis (still in progress).
+	The project seeks to render light caustics in dynamic liquid bodies using Ray Tracing. 
+	This rendering is of a fountain that is spraying "liquid" represented by the particles from the center.
+	To date, the proper forces between particles needs to be updated and the surface needs to be constructed before
+	lighting effects can be calculated. <br><br>
+
+	This image was rendered using ray tracing, with only one ray per pixel and a single shadow ray.
+	There are 3000 particles.
+	</p>
+
+	</div>
+
+	<div class="cards-full">
+
+	<img class="gallery_img" src="static/gallery/conejo.png" alt="Render Bunny image">
+	<p> 
+	This was rendered in pure C++ for a graphics class. The model is the Stanford Bunny, while I applied a rose quartz
+	texture and a brick normal mapping. This image was rendered using raster graphics and projective geometry without the use of
+	a graphics library like OpenGL. It features specular, diffuse, and ambient lighting using Phong Shading.
+	</p>
+
+	</div>
+
+	<div class="cards-full">
+
+	<img class="gallery_img" src="static/gallery/finalproj.png" alt="Render Buddha image">
+	<p> 
+
+	This image was from another class project. Implemented in C++ using OpenGL and GLSL, buddha
+	jumps on the sphere compressing it, and the dragon nearby slowly changes color.
+
+	</p>
+
+	</div>
+
+	<div class="cards-full">
+
+	<img class="gallery_img" src="static/gallery/render_error.png" alt="Render Error image">
+	<p> 
+	This image resulted from a memory error when attempting to render some objects in OpenGL.
+	This is the result of improperly loading data from .obj files into OpenGL's vertex attribute array.
+	</p>
+
+	</div>
+
+	<div class="cards-full">
+	<img class="gallery_img" src="static/gallery/sine_test_frame.png" alt="Render Error image">
+	<p> 
+
+	This image is a frame from an animation, where the camera rotates around the large spheres and triangle.
+	This image was rendered using Ray Tracing implemented in C++, and served as a test rendering for animations.
+	
+	</p>
+
+	</div>
+
+	<div class="cards-full">
+	<img class="gallery_img" src="static/gallery/finished2_high.jpg" alt="Render Error image"
+		width=80%>
+	<p> 
+
+	My very first good-looking rendering. This was produced after following Peter Shirley's 
+	<a href="https://raytracing.github.io/" target="_blank">Ray Tracing in One Weekend</a>.
+	
+	</p>
+
+	</div>
+
+</div></div>
+
+</body>
+</html>
